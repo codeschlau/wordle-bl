@@ -9,11 +9,19 @@
 <body>
     <div class="container">
         <h1>Word Cloud App</h1>
-        <p>Enter a word:</p>
-        <input type="text" id="wordInput" placeholder="Enter a word">
-        <button id="addWordButton">Add Word</button>
-        <div id="wordCloud">
-            <!-- Word Cloud here -->
+        <div id="roomSection">
+            <p>Create or join a room:</p>
+            <button id="createRoomButton">Create Room</button>
+            <input type="text" id="roomCodeInput" placeholder="Enter Room Code">
+            <button id="joinRoomButton">Join Room</button>
+        </div>
+        <div id="wordCloudSection">
+            <p>Enter a word:</p>
+            <input type="text" id="wordInput" placeholder="Enter a word">
+            <button id="addWordButton">Add Word</button>
+            <div id="wordCloud">
+                <!-- Word Cloud here -->
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
